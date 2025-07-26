@@ -5,7 +5,7 @@ const Display=(props)=>{
     <input className={styles.display}
      type='text'
      placeholder="Value"
-    
+     value={props.displayValue} readOnly 
       ></input>
  )
 }
